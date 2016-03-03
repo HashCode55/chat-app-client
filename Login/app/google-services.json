@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "chat-app-1211",
+    "project_number": "171788829707",
+    "name": "Chat-App"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171788829707:android:850bd98e7f55b231",
+        "client_id": "android:com.myapp.mehul.login.activity",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.myapp.mehul.login.activity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171788829707-0m506amc6qbfj3qtpqd7g28pqp1f2aqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapp.mehul.login.activity",
+            "certificate_hash": "7A4FB767C4C95911C99359D3AD2C2A6516283973"
+          }
+        },
+        {
+          "client_id": "171788829707-dn4aaoalcjq5981qtble3e4450bqvokl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

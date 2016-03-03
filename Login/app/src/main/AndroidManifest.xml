@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.mehul.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.myapp.mehul.login.app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--<activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+        <activity android:name=".activity.MyAppIntro"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Base.Theme.AppCompat"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity android:name=".activity.MainMenu"
+            android:label = "@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.ProfilePage"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize">
+        </activity>
+
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/AppTheme"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="orientation|screenSize"/>
+
+        <activity android:name=".activity.LoadingScreen"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.WordDisplay"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".activity.GameOver"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Base.Theme.AppCompat">
+        </activity>
+
+    </application>
+
+</manifest>
